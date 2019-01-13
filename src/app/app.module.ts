@@ -7,6 +7,7 @@ import { InicioComponent } from './inicio/inicio.component';
 import { TareasGruposComponent } from './tareas-grupos/tareas-grupos.component';
 import { TareasHoyComponent } from './tareas-hoy/tareas-hoy.component';
 import { TareasPendientesComponent } from './tareas-pendientes/tareas-pendientes.component';
+import { DuplicarPipe } from './duplicar.pipe';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { TareasPendientesComponent } from './tareas-pendientes/tareas-pendientes
     InicioComponent,
     TareasGruposComponent,
     TareasHoyComponent,
-    TareasPendientesComponent
+    TareasPendientesComponent,
+    DuplicarPipe
   ],
   imports: [
     BrowserModule
