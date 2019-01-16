@@ -1,21 +1,10 @@
-<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">Navbar</a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01"
-    aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-
-  <div class="collapse navbar-collapse" id="navbarColor01">
-    <ul class="navbar-nav ml-auto">
-      <li class="nav-item">
-        <a class="nav-link" href="#">Grupos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Perfil</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Cerrar sesión</a>
-      </li>
-    </ul>
-  </div>
-</nav>
+  <nav class="grey darken-1">
+    <div class="nav-wrapper">
+      <a [routerLink]="['']" class="brand-logo">Tareas</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a [routerLink]="['grupos']">Grupos</a></li>
+        <li><a [routerLink]="['']">Perfil</a></li>
+        <li><a [routerLink]="['']">Cerrar sesión</a></li>
+      </ul>
+    </div>
+  </nav>
